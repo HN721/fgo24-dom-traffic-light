@@ -15,7 +15,7 @@ function switchLight() {
   } else if (current === "yellow") {
     yellow.classList.add("active");
     current = "green";
-    setTimeout(switchLight, 1000);
+    setTimeout(switchLight, 2000);
   } else if (current === "green") {
     green.classList.add("active");
     current = "red";
