@@ -7,6 +7,7 @@ let current = "red";
 
 function switchLight() {
   Object.values(light).forEach((light) => light.classList.remove("active"));
+
   if (current === "red") {
     light.red.classList.add("active");
     current = "yellow";
